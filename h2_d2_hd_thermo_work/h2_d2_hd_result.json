@@ -1,0 +1,31 @@
+{
+  "reaction": "H2 + D2 -> 2 HD",
+  "method": "B3LYP/6-31G(d)",
+  "temperature_K": 298.15,
+  "pressure_bar": 1.0,
+  "model": "ideal-gas classical RRHO; nuclear-spin statistical weights omitted",
+  "optimized_h2_bond_length_angstrom": 0.7427877387013804,
+  "electronic_energy_hartree": -1.1754824109169246,
+  "species": {
+    "H2": {
+      "gibbs_hartree": -1.1768371408346259,
+      "frequency_cm-1": 4453.129951044697,
+      "zpe_hartree": 0.010144976490871644,
+      "entropy_hartree_per_k": 4.9654044792080787e-05
+    },
+    "D2": {
+      "gibbs_hartree": -1.1814401130235883,
+      "frequency_cm-1": 3150.0484456118165,
+      "zpe_hartree": 0.0071763383905609,
+      "entropy_hartree_per_k": 5.513564019645403e-05
+    },
+    "HD": {
+      "gibbs_hartree": -1.1796945522178446,
+      "frequency_cm-1": 3857.0177311887173,
+      "zpe_hartree": 0.008786932929860925,
+      "entropy_hartree_per_k": 5.4682949564198656e-05
+    }
+  },
+  "delta_g_hartree": -0.001111850577474982,
+  "delta_g_kj_mol": -2.9191632903160842
+}

@@ -1,0 +1,3 @@
+# Project-local MAESTRO settings for the H2O PySCF job.
+[resources]
+time = "24:00:00"
